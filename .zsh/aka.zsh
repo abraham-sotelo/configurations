@@ -12,3 +12,6 @@ alias dpsa='docker ps -a'
 alias dc='docker container'
 alias di='docker image'
 alias dils='docker image ls'
+
+#NeoVim aliases
+alias vim='chmod u+x ~/.nvim/nvim.appimage && ~/.nvim/nvim.appimage'
