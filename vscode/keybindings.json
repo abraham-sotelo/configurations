@@ -1,0 +1,32 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+shift+[Semicolon]",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "panelFocus"
+    },
+    {
+        "key": "alt+[Semicolon]",
+        "command": "workbench.action.terminal.new",
+        "when": "panelFocus"
+    },
+    {
+        "key": "ctrl+alt+[Semicolon]",
+        "command": "workbench.action.terminal.kill",
+        "when": "panelFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    }
+]
