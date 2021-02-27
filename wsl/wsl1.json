@@ -1,0 +1,13 @@
+{
+    "guid": "{2fca9573-1fb5-5088-a10c-a7ff0c3dd3bd}",
+    "hidden": false,
+    "closeOnExit" : true,
+    "name": "Windows",
+    "icon": "d:/wsl/windows.png",
+    "source": "Windows.Terminal.Wsl",
+    "commandline": "wsl --distribution zsh --user abraham",
+    "startingDirectory": "D:\\",
+    "cursorShape": "emptyBox",
+    "fontSize" : 14,
+    "fontFace": "MesloLGS NF"
+}
