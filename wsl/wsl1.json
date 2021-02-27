@@ -5,7 +5,7 @@
     "name": "Windows",
     "icon": "d:/wsl/windows.png",
     "source": "Windows.Terminal.Wsl",
-    "commandline": "wsl --distribution zsh --user abraham",
+    "commandline": "wsl --distribution zsh --user abraham --exec zsh",
     "startingDirectory": "D:\\",
     "cursorShape": "emptyBox",
     "fontSize" : 14,
