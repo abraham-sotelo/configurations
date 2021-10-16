@@ -2,7 +2,7 @@
 alias g='git'
 alias gs='git status'
 alias gd='git diff'
-alias gl='git log'
+alias gl='git log --oneline -n'
 alias gr='git remote --verbose'
 
 #Docker aliases
@@ -14,4 +14,4 @@ alias di='docker image'
 alias dils='docker image ls'
 
 #NeoVim aliases
-alias vim='chmod u+x ~/.nvim/nvim.appimage && ~/.nvim/nvim.appimage'
+#alias vim='chmod u+x ~/.nvim/nvim.appimage && ~/.nvim/nvim.appimage'
