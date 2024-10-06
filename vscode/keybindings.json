@@ -28,5 +28,10 @@
         "key": "ctrl+pagedown",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus"
     }
 ]
