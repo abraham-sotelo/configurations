@@ -1,3 +1,5 @@
 #!/bin/bash
-source ./zsh/zsh.sh
-source ./vscode/vscode.sh
+
+$(dirname $0)/zsh/zsh.sh
+#source ./vscode/vscode.sh
+

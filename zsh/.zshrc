@@ -25,6 +25,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Aliases and functions
-echo 'source ~/configurations/zsh/sources.zsh' >> ~/.zshrc
-echo 'source ~/configurations/zsh/aka.zsh' >> ~/.zshrc
-
+source ~/configurations/zsh/sources.zsh
+source ~/configurations/zsh/aka.zsh
