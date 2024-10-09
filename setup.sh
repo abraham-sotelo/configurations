@@ -1,5 +1,9 @@
 #!/bin/bash
 
-$(dirname $0)/zsh/zsh.sh
-#source ./vscode/vscode.sh
+MAIN_SCRIPT_DIR=$(dirname $0)
 
+$MAIN_SCRIPT_DIR/zsh/zsh.sh
+$MAIN_SCRIPT_DIR/vscode/vscode.sh
+
+exec zsh
+source ~/.zshrc

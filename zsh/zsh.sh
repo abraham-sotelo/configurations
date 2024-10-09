@@ -36,5 +36,3 @@ else
   echo "making zsh the default shell"
   chsh -s $(which zsh)
 fi
-exec zsh
-source ~/.zshrc
