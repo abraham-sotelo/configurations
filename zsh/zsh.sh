@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pushd "$(dirname "$0")"
+SCRIPT_DIR="$(dirname "$0")"
 #sudo apt update
 
 #setup zsh
@@ -14,7 +14,7 @@ echo "Creating symlinks for zsh"
 if [ -L ~/.zshrc ]; then
   echo "Symlink for .zshrc already exists"
 else
-  ln -s "$(pwd)/.zshrc" ~/.zshrc
+  ln -s "$SCRIPT_DIR/.zshrc" ~/.zshrc
 fi
 
 if [ -d ~/powerlevel10k ]; then
@@ -27,10 +27,8 @@ echo "Creating symlinks for powerlevel10k"
 if [ -L ~/.p10k.zsh ]; then
   echo "Symlink for .p10k.zsh already exists"
 else
-  ln -s "$(pwd)/.p10k.zsh" ~/.p10k.zsh
+  ln -s "$SCRIPT_DIR/.p10k.zsh" ~/.p10k.zsh
 fi
-
-popd
 
 if [ "$SHELL" = "$(which zsh)" ]; then
   echo "zsh is already the default shell"
