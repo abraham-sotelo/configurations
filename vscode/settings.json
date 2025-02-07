@@ -1,8 +1,4 @@
-[
-   {
-      "editor.tabSize": 2
-   },
-   {
-    "terminal.integrated.scrollback": 100000
-  }
-]
+{
+  "editor.tabSize": 2,
+  "terminal.integrated.scrollback": 100000
+}
