@@ -20,5 +20,10 @@ alias kpod='kubectl get pods'
 # Shell aliases
 alias ls='ls --color'
 
+# Projects alaises
+alias activate_radian="source ${HOME}/python/venvs/radian/bin/activate"
+alias goto_mlwp="source ${HOME}/courses/sds/ml/goto_mlwp.sh"
+alias goto_msda="source ${HOME}/fun/msda/msda/scripts/goto_msda.sh"
+
 #NeoVim aliases
 #alias vim='chmod u+x ~/.nvim/nvim.appimage && ~/.nvim/nvim.appimage'
