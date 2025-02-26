@@ -11,7 +11,7 @@ HISTSIZE=20000
 SAVEHIST=20000
 setopt autocd extendedglob nomatch notify
 unsetopt beep
-bindkey -v
+bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/maestro/.zshrc'
