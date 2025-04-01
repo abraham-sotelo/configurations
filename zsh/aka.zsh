@@ -25,6 +25,7 @@ alias activate_radian="source ${HOME}/python/venvs/radian/bin/activate"
 alias goto_mlwp="source ${HOME}/courses/sds/ml/goto_mlwp.sh"
 alias goto_msda="source ${HOME}/fun/msda/msda/scripts/goto_msda.sh"
 alias goto_social="source ${HOME}/courses/sds/social/goto_social.sh"
+alias goto_imfusion="source ${HOME}/fun/imFusion/goto_imFusion.sh"
 
 #NeoVim aliases
 #alias vim='chmod u+x ~/.nvim/nvim.appimage && ~/.nvim/nvim.appimage'
