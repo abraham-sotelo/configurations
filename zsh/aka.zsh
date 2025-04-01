@@ -27,6 +27,7 @@ alias goto_msda="source ${HOME}/fun/msda/msda/scripts/goto_msda.sh"
 alias goto_social="source ${HOME}/courses/sds/social/goto_social.sh"
 alias goto_imfusion="source ${HOME}/fun/imFusion/goto_imFusion.sh"
 alias goto_practice="source ${HOME}/fun/practice/goto_practice.sh"
+alias goto_autoanki="source ${HOME}/fun/autoanki/goto_autoanki.sh"
 
 #NeoVim aliases
 #alias vim='chmod u+x ~/.nvim/nvim.appimage && ~/.nvim/nvim.appimage'
