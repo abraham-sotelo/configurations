@@ -46,6 +46,6 @@ RUN wget https://releases.hashicorp.com/terraform/1.8.1/terraform_1.8.1_linux_am
   unzip terraform_1.8.1_linux_amd64.zip && \
   mv terraform /usr/local/bin/terraform && \
   rm terraform_1.8.1_linux_amd64.zip && \
-  npm install --global cdktf-cli@latest tsx
+  npm install --global cdktf-cli@latest tsx yarn
 
 CMD ["zsh"]
