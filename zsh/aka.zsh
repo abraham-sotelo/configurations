@@ -16,6 +16,8 @@ alias dils='docker image ls'
 #Kubernetes aliases
 alias k='kubectl'
 alias kpod='kubectl get pods'
+alias kx=kubectx
+alias kns=kubens
 
 # Shell aliases
 alias ls='ls --color'
